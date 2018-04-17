@@ -1,13 +1,18 @@
-text = input("Please type anything:\n")
 
-counter = dict()
-counter = {}
+# coding: utf-8
 
-for ch in text:
-    if ch in counter:
-        counter[ch] += 1
-    else:
-        counter[ch] = 1
+# In[13]:
 
-for ch, count in counter.items():
-    print(ch, count)
+
+text=input("please type anything:\n")
+counter = dict={}
+while True:
+    for ch in text:
+        if ch in counter:
+            counter[ch]+=1
+        else:
+            counter[ch]=1
+    break
+for ch,count in counter.items():
+    print('"'+ch+'":',count)
+
